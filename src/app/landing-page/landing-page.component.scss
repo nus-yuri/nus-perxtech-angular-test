@@ -1,0 +1,18 @@
+.landing-page {
+  position: absolute;
+  background: #0143a3;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.proceed {
+  width: 100px;
+  height: 60px;
+  font-weight: bold;
+  margin-top: calc((100vh - 60px)/2);
+  margin-left: calc((100vw - 100px)/2);
+  padding-top: 17px;
+  color: #0143a3;
+}

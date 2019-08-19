@@ -1,0 +1,10 @@
+<h3>Books</h3>
+
+<app-books-sort (notify)="onSort()"></app-books-sort>
+<app-books-filter (notify)="onSort()"></app-books-filter>
+
+<div class="row books">
+  <div class="col-3" *ngFor="let item of items">
+    <app-book [book]="item" ></app-book>
+  </div>
+</div>

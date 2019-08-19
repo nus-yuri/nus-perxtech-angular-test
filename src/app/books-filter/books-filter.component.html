@@ -1,0 +1,6 @@
+<h5 class='title'>Filter Region:</h5>
+
+<span>Type: </span>
+<select [(ngModel)]="filterData.type" (change)="setFilter('type')">
+  <option *ngFor="let option of typeOptions" [ngValue]="option">{{option}}</option>
+</select>

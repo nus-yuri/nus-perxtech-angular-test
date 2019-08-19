@@ -1,0 +1,6 @@
+<h5 class='title'>Sort Region:</h5>
+
+<span>Created at: </span>
+<select [(ngModel)]="sortData.createdAt" (change)="setSort('createdAt')">
+  <option *ngFor="let option of sortOptions" [ngValue]="option.value">{{option.name}}</option>
+</select>
